@@ -1,0 +1,12 @@
+Fazer um programa para ler os valores da largura e altura de um retangulo.
+Em seguida, mostrar na tela o valor de sua area, o perimetro e diagonal.
+Usar uma classe como mostrado no projeto ao lado.
+
+
+Exemplo:                            |               Rectangle
+Enter rectangle width and height:   |           -Width: double
+3.00                                |           -Height: double
+4.00                                |------------------------------------
+AREA = 12.00                        |           +Area(): double
+PERIMETER = 14.00                   |           +Perimeter(): double
+DIAGONAL = 5.00                     |           +Diagonal(): double
