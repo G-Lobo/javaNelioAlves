@@ -1,0 +1,59 @@
+Fazer um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e
+mostre:
+a) a área do triângulo retângulo que tem A por base e C por altura.
+b) a área do círculo de raio C. (pi = 3.14159)
+c) a área do trapézio que tem A e B por bases e C por altura.
+d) a área do quadrado que tem lado B.
+e) a área do retângulo que tem lados A e B.
+
+
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        double A;
+        double B;
+        double C;
+        A = sc.nextDouble();
+        B = sc.nextDouble();
+        C = sc.nextDouble();
+
+        //a área do triângulo retângulo que tem A por base e C por altura.
+        double a;
+        a = (A*C)/2;
+
+        //a área do círculo de raio C. (pi = 3.14159)
+        double b;
+        double pi = 3.14159;
+        double raioQuad = Math.pow(C, 2);
+        b = pi * raioQuad;
+
+        //a área do trapézio que tem A e B por bases e C por altura.
+        double c;
+        c = (A+B) * (C/2);
+
+        //a área do quadrado que tem lado B.
+        double d;
+        d = Math.pow(B,2);
+
+        //a área do retângulo que tem lados A e B
+        double e;
+        e = A*B;
+
+
+        System.out.printf("Triângulo: %.3f%n", a);
+        System.out.printf("Círculo: %.3f%n", b);
+        System.out.printf("Trapézio: %.3f%n", c);
+        System.out.printf("Quadrado: %.3f%n", d);
+        System.out.printf("Retângulo: %.3f%n", e);
+
+        sc.close();
+    }
+
+}
