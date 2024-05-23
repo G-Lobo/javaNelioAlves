@@ -3,9 +3,7 @@ package application;
 import entities.Costumer;
 import entities.Order;
 import entities.OrderItem;
-import entities.Product;
 import entities.enums.OrderStatus;
-
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

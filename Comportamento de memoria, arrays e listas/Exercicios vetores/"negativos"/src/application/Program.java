@@ -1,7 +1,5 @@
 package application;
 
-import entities.Product;
-
 import java.util.Locale;
 import java.util.Scanner;
 public class Program {
