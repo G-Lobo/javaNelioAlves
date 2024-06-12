@@ -1,10 +1,10 @@
 package application;
 
 
-import entities.Rectangle;
-import entities.Circle;
-import entities.Shape;
-import entities.enums.Color;
+import services.Rectangle;
+import services.Circle;
+import services.Shape;
+import services.enums.Color;
 
 import java.util.ArrayList;
 import java.util.List;

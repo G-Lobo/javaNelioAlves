@@ -1,7 +1,7 @@
 package application;
 
 
-import entities.Student;
+import services.Student;
 
 import java.util.Locale;
 import java.util.Scanner;

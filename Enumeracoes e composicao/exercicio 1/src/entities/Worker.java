@@ -1,6 +1,6 @@
-package entities;
+package services;
 
-import entities.enums.WorkerLevel;
+import services.enums.WorkerLevel;
 
 import java.util.ArrayList;
 import java.util.Calendar;

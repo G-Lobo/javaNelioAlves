@@ -1,6 +1,6 @@
 package application;
 
-import entities.Rectangle;
+import services.Rectangle;
 
 import java.util.Locale;
 import java.util.Scanner;

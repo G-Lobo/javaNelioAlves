@@ -1,4 +1,4 @@
-package entities;
+package services;
 
 public class OutsourcedEmployee extends Employee {
 

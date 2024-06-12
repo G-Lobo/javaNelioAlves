@@ -1,6 +1,6 @@
-package entities;
+package services;
 
-import entities.enums.Color;
+import services.enums.Color;
 
 import java.awt.*;
 
