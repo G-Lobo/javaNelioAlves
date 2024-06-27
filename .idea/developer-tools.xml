@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DeveloperToolsToolWindowSettingsV1" lastSelectedContentNodeId="cli-command-converter">
+  <component name="DeveloperToolsToolWindowSettingsV1" lastSelectedContentNodeId="rubber-duck">
     <developerToolsConfigurations>
       <developerToolConfiguration developerToolId="java-text-escape" id="c0984374-44fb-4913-8a91-2801d4781617" name="Workbench">
         <properties>
@@ -9,5 +9,6 @@
         </properties>
       </developerToolConfiguration>
     </developerToolsConfigurations>
+    <expandedGroupNodeIds />
   </component>
 </project>
